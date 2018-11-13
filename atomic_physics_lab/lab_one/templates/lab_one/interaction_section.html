@@ -1,0 +1,19 @@
+{% extends 'lab_one/lab_one_base.html' %}
+
+
+{% block content %}
+
+  <form class="" action="{% url 'collision_probability_url' %}" method="post">
+
+    {% csrf_token %}
+    {{ collision_probability_form.as_p }}
+
+    <button type="submit">Рассчитать сечение взаимодействия</button>
+
+  </form>
+
+
+
+
+
+{% endblock %}

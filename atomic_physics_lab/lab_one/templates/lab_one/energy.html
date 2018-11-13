@@ -1,0 +1,15 @@
+{% extends 'lab_one/lab_one_base.html' %}
+
+
+{% block content %}
+  <form class="" action="{% url 'energy_url' %}" method="post">
+    {% csrf_token %}
+
+    {{ form.as_p }}
+    
+    <button type="submit">Рассчитать энергию</button>
+
+  </form>
+
+
+{% endblock %}

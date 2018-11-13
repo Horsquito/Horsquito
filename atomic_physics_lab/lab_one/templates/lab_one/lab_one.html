@@ -1,0 +1,12 @@
+{% extends 'lab_one/lab_one_base.html' %}
+
+
+
+
+{% block content %}
+<ul>
+  <li><a href="{% url 'energy_url' %}">Страница рассчета энергии электронов</a>
+  <li><a href="{% url 'current_url' %}">Страница рассчета вероятности столкновения</a>
+  <li><a href="{% url 'collision_probability_url' %}">Страница рассчета сечения взаимодействия</a>
+</ul>
+{% endblock %}

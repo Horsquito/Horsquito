@@ -1,0 +1,12 @@
+{% extends 'lab_one/lab_one_base.html' %}
+
+
+{% block content %}
+
+  {% for interaction_section in interaction_sections %}
+
+    <p>{{ interaction_section }}</p>
+
+  {% endfor %}
+
+{% endblock %}

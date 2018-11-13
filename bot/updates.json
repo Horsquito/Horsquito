@@ -1,0 +1,261 @@
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 593603202,
+      "message": {
+        "message_id": 7,
+        "from": {
+          "id": 492652378,
+          "is_bot": false,
+          "first_name": "Алексей",
+          "last_name": "Земисов",
+          "username": "alexey_zemisov",
+          "language_code": "ru-RU"
+        },
+        "chat": {
+          "id": 492652378,
+          "first_name": "Алексей",
+          "last_name": "Земисов",
+          "username": "alexey_zemisov",
+          "type": "private"
+        },
+        "date": 1541608945,
+        "text": "Hello, Bot!"
+      }
+    },
+    {
+      "update_id": 593603203,
+      "message": {
+        "message_id": 8,
+        "from": {
+          "id": 492652378,
+          "is_bot": false,
+          "first_name": "Alexey",
+          "last_name": "Zemisov",
+          "username": "alexey_zemisov",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 492652378,
+          "first_name": "Alexey",
+          "last_name": "Zemisov",
+          "username": "alexey_zemisov",
+          "type": "private"
+        },
+        "date": 1541611131,
+        "text": "dkhbfkhs"
+      }
+    },
+    {
+      "update_id": 593603204,
+      "message": {
+        "message_id": 9,
+        "from": {
+          "id": 492652378,
+          "is_bot": false,
+          "first_name": "Alexey",
+          "last_name": "Zemisov",
+          "username": "alexey_zemisov",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 492652378,
+          "first_name": "Alexey",
+          "last_name": "Zemisov",
+          "username": "alexey_zemisov",
+          "type": "private"
+        },
+        "date": 1541611133,
+        "text": "sdofsaosfds"
+      }
+    },
+    {
+      "update_id": 593603205,
+      "message": {
+        "message_id": 10,
+        "from": {
+          "id": 492652378,
+          "is_bot": false,
+          "first_name": "Alexey",
+          "last_name": "Zemisov",
+          "username": "alexey_zemisov",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 492652378,
+          "first_name": "Alexey",
+          "last_name": "Zemisov",
+          "username": "alexey_zemisov",
+          "type": "private"
+        },
+        "date": 1541611134,
+        "text": "asdgfasygdu9g"
+      }
+    },
+    {
+      "update_id": 593603206,
+      "message": {
+        "message_id": 11,
+        "from": {
+          "id": 348018867,
+          "is_bot": false,
+          "first_name": "Anton",
+          "last_name": "Moiseev",
+          "username": "anton_moiseev"
+        },
+        "chat": {
+          "id": 348018867,
+          "first_name": "Anton",
+          "last_name": "Moiseev",
+          "username": "anton_moiseev",
+          "type": "private"
+        },
+        "date": 1541625703,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 593603207,
+      "message": {
+        "message_id": 12,
+        "from": {
+          "id": 348018867,
+          "is_bot": false,
+          "first_name": "Anton",
+          "last_name": "Moiseev",
+          "username": "anton_moiseev",
+          "language_code": "ru-RU"
+        },
+        "chat": {
+          "id": 348018867,
+          "first_name": "Anton",
+          "last_name": "Moiseev",
+          "username": "anton_moiseev",
+          "type": "private"
+        },
+        "date": 1541625707,
+        "text": "hi"
+      }
+    },
+    {
+      "update_id": 593603208,
+      "message": {
+        "message_id": 13,
+        "from": {
+          "id": 492652378,
+          "is_bot": false,
+          "first_name": "Alexey",
+          "last_name": "Zemisov",
+          "username": "alexey_zemisov",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 492652378,
+          "first_name": "Alexey",
+          "last_name": "Zemisov",
+          "username": "alexey_zemisov",
+          "type": "private"
+        },
+        "date": 1541690031,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    },
+    {
+      "update_id": 593603209,
+      "message": {
+        "message_id": 14,
+        "from": {
+          "id": 492652378,
+          "is_bot": false,
+          "first_name": "Alexey",
+          "last_name": "Zemisov",
+          "username": "alexey_zemisov",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": -195150389,
+          "title": "Rei_Wing_Horsquito",
+          "type": "group",
+          "all_members_are_administrators": true
+        },
+        "date": 1541690472,
+        "group_chat_created": true
+      }
+    },
+    {
+      "update_id": 593603210,
+      "channel_post": {
+        "message_id": 2,
+        "chat": {
+          "id": -1001303640238,
+          "title": "Rei_Wing_Horsquito",
+          "type": "channel"
+        },
+        "date": 1541691416,
+        "text": "hello,bot"
+      }
+    },
+    {
+      "update_id": 593603211,
+      "message": {
+        "message_id": 15,
+        "from": {
+          "id": 492652378,
+          "is_bot": false,
+          "first_name": "Alexey",
+          "last_name": "Zemisov",
+          "username": "alexey_zemisov",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": -195150389,
+          "title": "Rei_Wing_Horsquito",
+          "type": "group",
+          "all_members_are_administrators": true
+        },
+        "date": 1541691758,
+        "new_chat_participant": {
+          "id": 348018867,
+          "is_bot": false,
+          "first_name": "Anton",
+          "last_name": "Moiseev",
+          "username": "anton_moiseev",
+          "language_code": "ru-RU"
+        },
+        "new_chat_member": {
+          "id": 348018867,
+          "is_bot": false,
+          "first_name": "Anton",
+          "last_name": "Moiseev",
+          "username": "anton_moiseev",
+          "language_code": "ru-RU"
+        },
+        "new_chat_members": [
+          {
+            "id": 348018867,
+            "is_bot": false,
+            "first_name": "Anton",
+            "last_name": "Moiseev",
+            "username": "anton_moiseev",
+            "language_code": "ru-RU"
+          }
+        ]
+      }
+    }
+  ]
+}

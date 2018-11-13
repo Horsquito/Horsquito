@@ -1,0 +1,17 @@
+{% extends 'lab_one/lab_one_base.html' %}
+
+
+{% block content %}
+
+  <form class="" action="{% url 'current_url' %}" method="post">
+    {% csrf_token %}
+
+    {{ current_form.as_p }}
+
+
+    <button type="submit">Рассчитать вероятность столкновения</button>
+
+  </form>
+
+
+{% endblock %}

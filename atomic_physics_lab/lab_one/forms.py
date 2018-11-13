@@ -1,0 +1,50 @@
+from django import forms
+
+class EnergyForm(forms.Form):
+    uc_1 = forms.FloatField()
+    uc_2 = forms.FloatField()
+    uc_3 = forms.FloatField()
+    uc_4 = forms.FloatField()
+    uc_5 = forms.FloatField()
+    uc_6 = forms.FloatField()
+    uc_7 = forms.FloatField()
+    uc_8 = forms.FloatField()
+    uc_9 = forms.FloatField()
+    uc_10 = forms.FloatField()
+
+class CurrentForm(forms.Form):
+    ia_1 = forms.FloatField()
+    ia_2 = forms.FloatField()
+    ia_3 = forms.FloatField()
+    ia_4 = forms.FloatField()
+    ia_5 = forms.FloatField()
+    ia_6 = forms.FloatField()
+    ia_7 = forms.FloatField()
+    ia_8 = forms.FloatField()
+    ia_9 = forms.FloatField()
+    ia_10 = forms.FloatField()
+
+    ic_1 = forms.FloatField()
+    ic_2 = forms.FloatField()
+    ic_3 = forms.FloatField()
+    ic_4 = forms.FloatField()
+    ic_5 = forms.FloatField()
+    ic_6 = forms.FloatField()
+    ic_7 = forms.FloatField()
+    ic_8 = forms.FloatField()
+    ic_9 = forms.FloatField()
+    ic_10 = forms.FloatField()
+
+
+class CollisionProbabilityForm(forms.Form):
+    substance_quantity = forms.FloatField()
+    ps_1 = forms.FloatField(max_value = 0.99999)
+    ps_2 = forms.FloatField(max_value = 0.99999)
+    ps_3 = forms.FloatField(max_value = 0.99999)
+    ps_4 = forms.FloatField(max_value = 0.99999)
+    ps_5 = forms.FloatField(max_value = 0.99999)
+    ps_6 = forms.FloatField(max_value = 0.99999)
+    ps_7 = forms.FloatField(max_value = 0.99999)
+    ps_8 = forms.FloatField(max_value = 0.99999)
+    ps_9 = forms.FloatField(max_value = 0.99999)
+    ps_10 = forms.FloatField(max_value = 0.99999)
